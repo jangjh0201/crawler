@@ -74,7 +74,7 @@ class NaverSmartStore:
     # 사용자 정보 가져오기
     def __userImport(self, fileName):
         info = {}
-        with open(f"C:/Users/juno/Python/프로젝트(닥터트루)/Master_key/{fileName}.txt") as f:
+        with open(f"C:/Users/juno/Python/project/Master_key/{fileName}.txt") as f:
             for line in f:
                 key, value = line.strip().split(' : ')
                 info[key] = value
