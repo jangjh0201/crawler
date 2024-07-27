@@ -1,3 +1,7 @@
 {
-  "python.defaultInterpreterPath": "C:\\Users\\Junho\\Project\\Python\\venvs\\crawler\\Scripts\\python"
+  "python.defaultInterpreterPath": "C:\\Users\\Junho\\Project\\Python\\venvs\\crawler\\Scripts\\python",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "editor.defaultFormatter": "ms-python.autopep8"
 }
